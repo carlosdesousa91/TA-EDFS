@@ -28,5 +28,5 @@ proxy.on('proxyReq', function(proxyReq, req, res, options) {
   proxyReq.setHeader('REMOTE_USER', remote_user);
 });
 
-proxy.listen(8080);
+proxy.listen(proxy_port);
 
